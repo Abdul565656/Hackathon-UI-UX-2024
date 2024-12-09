@@ -1,7 +1,7 @@
 
 import React from 'react'
 
-const Benefit = () => {
+const Club = () => {
   return (
     <div>
         <div className="w-full h-auto bg-gray-100 py-8">
@@ -24,4 +24,4 @@ const Benefit = () => {
   )
 }
 
-export default Benefit;
+export default Club;

@@ -6,40 +6,40 @@ import { IoLogoSkype } from "react-icons/io";
 
 const Footer = () => {
   return (
-    <>
+    <div>
       <div className='px-6 md:px-12 py-8 bg-[#2A254B] mt-8'>
         <div className="flex flex-wrap gap-12 md:gap-[100px] lg:gap-[200px]">
           {/* Menu Section */}
           <div className="text-gray-500 w-full sm:w-auto">
             <h1 className="text-lg md:text-xl font-bold">Menu</h1>
             <div className='space-y-2'>
-              <h1><Link href={'/'}>New Arrivals</Link></h1>
-              <h1><Link href={'/'}>Best sellers</Link></h1>
-              <h1><Link href={'/'}>Recently viewed</Link></h1>
-              <h1><Link href={'/'}>Popular this week</Link></h1>
-              <h1><Link href={'/'}>All Products</Link></h1>
+              <h1>New Arrivals</h1>
+              <h1>Best sellers</h1>
+              <h1>Recently viewed</h1>
+              <h1>Popular this week</h1>
+              <h1>All Products</h1>
             </div>
           </div>
 
           <div className="text-gray-500 w-full sm:w-auto">
             <h1 className="text-lg md:text-xl font-bold">Categories</h1>
             <div className='space-y-2'>
-              <h1><Link href={'/'}>Crockery</Link></h1>
-              <h1><Link href={'/'}>Furniture</Link></h1>
-              <h1><Link href={'/'}>Homeware</Link></h1>
-              <h1><Link href={'/'}>Plant pots</Link></h1>
-              <h1><Link href={'/'}>Chairs</Link></h1>
+              <h1>Crockery</h1>
+              <h1>Furniture</h1>
+              <h1>Homeware</h1>
+              <h1>Plant pots</h1>
+              <h1>Chairs</h1>
             </div>
           </div>
 
           <div className="text-gray-500 w-full sm:w-auto">
             <h1 className="text-lg md:text-xl font-bold">Our Company</h1>
             <div className='space-y-2'>
-              <h1><Link href='/about'>About us</Link></h1>
-              <h1><Link href={'/'}>Vacancies</Link></h1>
-              <h1><Link href={'/'}>Contact us</Link></h1>
-              <h1><Link href={'/'}>Privacy</Link></h1>
-              <h1><Link href={'/'}>Return policy</Link></h1>
+              <h1>About us</h1>
+              <h1>Vacancies</h1>
+              <h1>Contact us</h1>
+              <h1>Privacy</h1>
+              <h1>Return policy</h1>
             </div>
           </div>
 
@@ -60,7 +60,6 @@ const Footer = () => {
 
         <hr className='bg-[#4E4D93] my-8' />
 
-        {/* Footer Bottom Section */}
         <div className='flex flex-wrap justify-between items-center text-white gap-4'>
           <div>
             <h1>Copyright 2022 Avion LTD</h1>
@@ -75,7 +74,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

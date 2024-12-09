@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
+
 
 const Hero1 = () => {
   return (
@@ -16,7 +16,7 @@ const Hero1 = () => {
     {/* text divs of box 1  */}
     <div className='text-white p-14 '>
         <h4 className='text-3xl font-light '>The furniture brand for the <br /> future, with timeless designs</h4>
-        <Link href='/ProductListing'><button className='mt-8 bg-[#F9F9F926;] px-5 py-5 pl-8 pr-8 font-extralight '>View Collection</button></Link>
+        <button className='mt-8 bg-[#F9F9F926;] px-5 py-5 pl-8 pr-8 font-extralight '>View Collection</button>
 
         <p className='mt-36 font-thin'>A new era in eco friendly furniture with Avelon, the French luxury retail brand
         with nice fonts, tasteful colors and a beautiful way to display things digitally 

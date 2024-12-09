@@ -2,32 +2,23 @@
 'use client'
 import Image from 'next/image'
 import React from 'react'
-import { useRouter } from 'next/navigation';
 
 const Product = () => {
-  const router = useRouter();
-
-  const handleNavigation = () => {
-    router.push('/productlisting'); // Navigates to the "/about" page
-  };
-
   return (
-    <>
-      <section>
+   <div>
         <div className='px-8 py-12 text-[#2A254B] mt-12'>
           <h1 className='text-2xl'>Our popular products</h1>
 
           
-          <div className='flex flex-col md:flex-row gap-8 mt-8'>
-            
-            {/* Product 1 */}
-            <div className='w-full md:w-[700px] h-auto group'>
+          <div className='flex gap-8 mt-8'>
+          
+            <div className=' h-auto group'>
               <Image
                 src='/images/sofa.jpeg'
-                height={800}
-                width={800}
+                height={300}
+                width={300}
                 alt='sofa'
-                className='w-full h-[80%] object-cover'
+                className=' h-[80%] object-cover'
               />
               <div className='mt-4 text-[#2A254B]'>
                 <p className='py-2'>The popular suede sofa</p>
@@ -35,14 +26,13 @@ const Product = () => {
               </div>
             </div>
 
-            {/* Product 2 */}
-            <div className='w-full md:w-[350px] h-auto group'>
+            <div className=' h-auto group'>
               <Image
                 src='/images/chair.jpeg'
-                height={800}
-                width={800}
+                height={300}
+                width={300}
                 alt='chair'
-                className='w-full h-[80%] object-cover'
+                className=' h-[80%] object-cover'
               />
               <div className='mt-4 text-[#2A254B]'>
                 <p className='py-2'>The Dandy chair</p>
@@ -50,14 +40,13 @@ const Product = () => {
               </div>
             </div>
 
-            {/* Product 3 */}
-            <div className='w-full md:w-[350px] h-auto group'>
+            <div className='h-auto'>
               <Image
                 src='/images/stool.jpeg'
-                height={900}
-                width={900}
+                height={300}
+                width={300}
                 alt='chair'
-                className='w-full h-[80%] object-cover'
+                className=' h-[80%] object-cover'
               />
               <div className='mt-4 text-[#2A254B]'>
                 <p className='py-2'>The Dandy chair</p>
@@ -67,15 +56,13 @@ const Product = () => {
 
           </div>
 
-          {/* View Collection Button */}
           <div className='my-10 flex justify-center items-center'>
-            <button className='bg-[#F9F9F9] py-4 px-6 rounded-[5px] text-[#2A254B]' onClick={handleNavigation}>
+            <button className='bg-[#F9F9F9] py-4 px-6 rounded-[5px] text-[#2A254B]'>
               View products
             </button>
           </div>
         </div>
-      </section>
-    </>
+    </div>
   )
 }
 
