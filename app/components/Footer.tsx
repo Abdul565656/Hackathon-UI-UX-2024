@@ -7,73 +7,69 @@ import { IoLogoSkype } from "react-icons/io";
 const Footer = () => {
   return (
     <div>
-      <div className='px-6 md:px-12 py-8 bg-[#2A254B] mt-8'>
-        <div className="flex flex-wrap gap-12 md:gap-[100px] lg:gap-[200px]">
-          {/* Menu Section */}
-          <div className="text-gray-500 w-full sm:w-auto">
-            <h1 className="text-lg md:text-xl font-bold">Menu</h1>
-            <div className='space-y-2'>
-              <h1>New Arrivals</h1>
-              <h1>Best sellers</h1>
-              <h1>Recently viewed</h1>
-              <h1>Popular this week</h1>
-              <h1>All Products</h1>
+      
+           <div className='flex bg-[#2A254B] justify-between items-center p-20 text-white leading-9 font-thin'>
+
+           <div className=''>
+            <ul>
+              <h3 className='text-xl'>Menu</h3>
+              <li>New arrivals</li>
+              <li>Best sellers</li>
+              <li>Recently viewed</li>
+              <li>Popular this week</li>
+              <li>All products</li>
+              </ul>
+           </div>
+
+           <div>
+           <ul>
+              <h3 className='text-xl'>Categories</h3>
+              <li>Crockery</li>
+              <li>Furniture</li>
+              <li>Homeware</li>
+              <li>Plant pots</li>
+              <li>Chairs</li>
+            </ul>
+           </div>
+
+           <div>
+           <ul>
+              <h3 className='text-xl'>Our Company</h3>
+              <li>About us</li>
+              <li>Vacancies</li>
+              <li>Contact us</li>
+              <li>Privacy</li>
+              <li>Returns policy</li>
+            </ul>
+           </div>
+
+           <div className='mb-20'>
+           <ul>
+            <h3 className='text-xl'>Join our mailing list</h3>
+            <br />
+              <input type="text" placeholder='your@email.com'  className='pr-40 pl-40 p-2 pt-4 pb-2 bg-[#FFFFFF26]'/>
+              <button className='pt-4 pb-2 pr-8 pl-8 bg-white text-black'>Sign up</button>
+            </ul>
+           </div>
+           </div>
+
+           <div className='bg-[#2A254B]'>
+            <hr className='border-t border-white ml-16 mr-16' />
+
+            <div className='flex justify-between p-6 ml-12 mr-12'>
+
+              <div className='text-white'>Copyright 2022 Avion LTD</div>
+              <div className='flex space-x-8 text-xl text-white'>
+              <FaLinkedin/>
+              <FaInstagram/>
+              <FaFacebookSquare/>
+              <FaTwitter/>
+              <FaPinterest/>
+              </div>
             </div>
-          </div>
+           </div>
 
-          <div className="text-gray-500 w-full sm:w-auto">
-            <h1 className="text-lg md:text-xl font-bold">Categories</h1>
-            <div className='space-y-2'>
-              <h1>Crockery</h1>
-              <h1>Furniture</h1>
-              <h1>Homeware</h1>
-              <h1>Plant pots</h1>
-              <h1>Chairs</h1>
-            </div>
-          </div>
 
-          <div className="text-gray-500 w-full sm:w-auto">
-            <h1 className="text-lg md:text-xl font-bold">Our Company</h1>
-            <div className='space-y-2'>
-              <h1>About us</h1>
-              <h1>Vacancies</h1>
-              <h1>Contact us</h1>
-              <h1>Privacy</h1>
-              <h1>Return policy</h1>
-            </div>
-          </div>
-
-          <div className="text-white w-full sm:w-auto">
-            <h1 className="text-lg md:text-xl font-bold">Join our mailing list</h1>
-            <div className='mt-4'>
-              <input
-                type="text"
-                placeholder="abdullahkashiflinkedin909@gmail.com"
-                className='w-full sm:w-[250px] lg:w-[300px] h-[48px] p-2 bg-transparent opacity-35 border border-white rounded-md'
-              />
-              <button className='mt-2 sm:mt-0 sm:ml-2 w-full sm:w-[100px] h-[48px] bg-white text-[#2A254B] rounded-md'>
-                Sign up
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <hr className='bg-[#4E4D93] my-8' />
-
-        <div className='flex flex-wrap justify-between items-center text-white gap-4'>
-          <div>
-            <h1>Copyright 2022 Avion LTD</h1>
-          </div>
-          <div className='flex gap-4'>
-            <Link href={'/'}><FaLinkedin size={20} /></Link>
-            <Link href={'/'}><FaFacebookSquare size={20} /></Link>
-            <Link href={'/'}><FaInstagram size={20} /></Link>
-            <Link href={'/'}><IoLogoSkype size={20} /></Link>
-            <Link href={'/'}><FaTwitter size={20} /></Link>
-            <Link href={'/'}><FaPinterest size={20} /></Link>
-          </div>
-        </div>
-      </div>
     </div>
   );
 };

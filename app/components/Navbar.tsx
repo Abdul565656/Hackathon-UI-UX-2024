@@ -5,23 +5,33 @@ import { IoMdContact } from "react-icons/io";
 const Navbar = () => {
   return (
     <div>
-    <nav className="flex items-center justify-between p-6 ">
-     {/* Search Icon */}
+    <nav className="flex items-center justify-between p-6 bg-white shadow-md">
+      {/* Search Icon */}
       <div className="flex items-center space-x-2">
         <FiSearch className="text-gray-600 w-5 h-5 cursor-pointer" />
-    
       </div>
 
       {/* Top Header Name */}
-      <div>
-        <h1 className="text-2xl font-light  font-mono">Avion</h1>
+      <div className="text-center">
+        <h1 className="text-xl sm:text-2xl font-light font-mono">Avion</h1>
       </div>
-      {/* Cart and contact */}
-     <div className="flex space-x-4">
+
+      {/* Cart and Contact */}
+      <div className="hidden sm:flex space-x-4">
         <FiShoppingCart className="text-gray-600 w-5 h-5 cursor-pointer" />
-        <IoMdContact className="text-gray-600 w-5 h-5 cursor-pointer"  />
-        </div>
-        </nav>
+        <IoMdContact className="text-gray-600 w-5 h-5 cursor-pointer" />
+      </div>
+
+      {/* Mobile Menu */}
+      <div className="flex sm:hidden space-x-4">
+        <button className="p-2 border rounded hover:bg-gray-100">
+          <FiShoppingCart className="text-gray-600 w-5 h-5 cursor-pointer" />
+        </button>
+        <button className="p-2 border rounded hover:bg-gray-100">
+          <IoMdContact className="text-gray-600 w-5 h-5 cursor-pointer" />
+        </button>
+      </div>
+    </nav>
 
         <hr className=" border-t border-gray-200 ml-10 mr-10" />
         <div className="flex justify-center">
