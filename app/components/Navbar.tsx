@@ -34,7 +34,7 @@ const Navbar = () => {
     </nav>
 
         <hr className=" border-t border-gray-200 ml-10 mr-10" />
-        <div className="flex justify-center">
+        <div className="hidden sm:flex justify-center">
   <ul className="flex items-center justify-between space-x-11 p-6 text-gray-600 text-sm">
     <li className="hover:text-gray-800 cursor-pointer">Plant pots</li>
     <li className="hover:text-gray-800 cursor-pointer">Ceramics</li>

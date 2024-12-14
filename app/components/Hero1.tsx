@@ -9,7 +9,7 @@ const Hero1 = () => {
            {/* main div */}
            <div className="flex justify-center items-center">
             {/* first child div of box 1  */}
-  <div className="bg-[#2A254B] w-[900px] h-[470px]">
+  <div className="bg-[#2A254B] md:w-[900px] md:h-[470px] ">
 
 
 
@@ -28,15 +28,16 @@ const Hero1 = () => {
 
 
  {/* second child div of image */}
-  <div className="">
-    <Image
-      className='left-16'
-      src="/images/chair.jpeg"
-      alt="chair image"
-      width={377}
-      height={240}
-    />
-  </div>
+ <div className="hidden md:block">
+  <Image
+    className="left-16"
+    src="/images/chair.jpeg"
+    alt="chair image"
+    width={377}
+    height={240}
+  />
+</div>
+
 </div>
 
        

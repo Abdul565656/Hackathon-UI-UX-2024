@@ -14,10 +14,10 @@ const Club = () => {
             <input
               type="text"
               placeholder="you@gmail.com"
-              className="bg-gray-100 w-80 h-12 p-5 rounded-sm"
+              className="bg-gray-100 w-80 h-12 p-6 pt-4 pb-4 rounded-sm"
             />
-            <button className="bg-custom-purple h-12 w-32 rounded-sm text-white">Sign Up</button>
-          </div>
+              <button className='pt-4 pb-4 pr-8 pl-8 bg-[#2A254B] text-white'>Sign up</button>
+              </div>
         </div>
       </div>
     </div>

@@ -6,6 +6,8 @@ import PopularProduct from './components/PopularProduct'
 import Club from './components/Club'
 import Studio from './components/Studio'
 import MobileNavbar from './components/MobileNavbar'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 const page = () => {
   return (
@@ -13,12 +15,14 @@ const page = () => {
       <div className='lg:hidden'>
       <MobileNavbar />
       </div>
+      <Navbar />
       <Hero1 />
       <Hero2 />
       <Card1 /> 
       <PopularProduct />
       <Club />
       <Studio />
+      <Footer />
     </div>
   )
 }

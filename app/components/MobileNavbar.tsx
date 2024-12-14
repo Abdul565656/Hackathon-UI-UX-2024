@@ -19,10 +19,14 @@ const MobileNavbar = () => {
   </SheetTrigger>
   <SheetContent>
     <SheetHeader>
-      <SheetTitle>Are you absolutely sure?</SheetTitle>
+      <SheetTitle></SheetTitle>
       <SheetDescription>
-        This action cannot be undone. This will permanently delete your account
-        and remove your data from our servers.
+         <ul className=''>
+          <li>Home</li>
+          <li>Products</li>
+          <li>About us</li>
+          <li>Cart</li>
+         </ul>
       </SheetDescription>
     </SheetHeader>
   </SheetContent>
