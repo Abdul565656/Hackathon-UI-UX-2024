@@ -1,6 +1,7 @@
 import React from "react";
 import { FiShoppingCart, FiSearch } from "react-icons/fi";
 import { IoMdContact } from "react-icons/io";
+import MobileNavbar from "../components/MobileNavbar";
 
 const Navbar = () => {
   return (
@@ -17,9 +18,12 @@ const Navbar = () => {
       </div>
 
       {/* Cart and Contact */}
-      <div className="hidden sm:flex space-x-4">
+      <div className="flex space-x-4">
         <FiShoppingCart className="text-gray-600 w-5 h-5 cursor-pointer" />
         <IoMdContact className="text-gray-600 w-5 h-5 cursor-pointer" />
+        <div className="hidden md:block">
+      <MobileNavbar />
+      </div>
       </div>
 
       {/* Mobile Menu */}

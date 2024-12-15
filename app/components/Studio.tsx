@@ -5,11 +5,11 @@ const Touch = () => {
   return (
     <div>
 
-           <div className='flex justify-between'>
-              <div className='w-[650px] h-[485px] p-16 font-light'>
-                <h4 className='text-2xl'>From a studio in London to a global brand with over 400 outlets</h4>
+           <div className='flex justify-between md:flex-row flex-col'>
+              <div className='md:w-[650px] md:h-[485px] md:p-16 p-10 w-[300px] font-light'>
+                <h4 className='md:text-2xl text-xl'>From a studio in London to a global brand with over 400 outlets</h4>
                 <br />
-                <p className='text-xl'>When we started Avion, the idea was simple. Make high quality furniture affordable and available for the mass market. 
+                <p className='md:text-xl text-sm'>When we started Avion, the idea was simple. Make high quality furniture affordable and available for the mass market. 
                   <br />
                   <br />
                   Handmade, and lovingly crafted furniture and homeware is what we live, breathe and design so our Chelsea boutique become the hotbed for the London interior design community.</p>
@@ -19,7 +19,7 @@ const Touch = () => {
               </div>
 
 
-              <div className='flex w-[650px] h-[500px]'>
+              <div className='flex md:w-[650px] md:h-[500px] w-[350px]'>
                 <Image
                  src="/images/room.jpeg"
                  alt="room"

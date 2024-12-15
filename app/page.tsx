@@ -5,16 +5,12 @@ import Card1 from './components/Card1'
 import PopularProduct from './components/PopularProduct'
 import Club from './components/Club'
 import Studio from './components/Studio'
-import MobileNavbar from './components/MobileNavbar'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
 const page = () => {
   return (
     <div>
-      <div className='lg:hidden'>
-      <MobileNavbar />
-      </div>
       <Navbar />
       <Hero1 />
       <Hero2 />
