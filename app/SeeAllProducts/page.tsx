@@ -85,7 +85,7 @@ const page = () => {
 
 
     {/* Product Items */}
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12 md:p-8">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-6 p-4 mt-12 md:p-8">
                 <div className="w-full h-auto">
                   <Image
                     src="/images/chair.jpeg"
@@ -144,7 +144,7 @@ const page = () => {
 
 
                {/* Product Items */}
-               <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12 md:p-8">
+               <div className="grid grid-cols-2 md:grid-cols-4 gap-6 p-4 mt-12 md:p-8">
                 <div className="w-full h-auto">
                   <Image
                     src="/images/chairs2.jpeg"
@@ -203,7 +203,7 @@ const page = () => {
 
 
                {/* Product Items */}
-               <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12 md:p-8">
+               <div className="grid grid-cols-2 md:grid-cols-4 gap-6 p-4 mt-12 md:p-8">
                 <div className="w-full h-auto">
                   <Image
                     src="/images/chair.jpeg"

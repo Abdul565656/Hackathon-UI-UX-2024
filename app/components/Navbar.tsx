@@ -21,20 +21,9 @@ const Navbar = () => {
       <div className="flex space-x-4">
         <FiShoppingCart className="text-gray-600 w-5 h-5 cursor-pointer" />
         <IoMdContact className="text-gray-600 w-5 h-5 cursor-pointer" />
-        <div className="hidden md:block">
-      <MobileNavbar />
-      </div>
+        <MobileNavbar />
       </div>
 
-      {/* Mobile Menu */}
-      <div className="flex sm:hidden space-x-4">
-        <button className="p-2 border rounded hover:bg-gray-100">
-          <FiShoppingCart className="text-gray-600 w-5 h-5 cursor-pointer" />
-        </button>
-        <button className="p-2 border rounded hover:bg-gray-100">
-          <IoMdContact className="text-gray-600 w-5 h-5 cursor-pointer" />
-        </button>
-      </div>
     </nav>
 
         <hr className=" border-t border-gray-200 ml-10 mr-10" />
