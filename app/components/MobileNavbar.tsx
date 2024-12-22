@@ -10,6 +10,7 @@ import {
 import { IoMenu } from "react-icons/io5";
 import { FaHome, FaBox, FaInfoCircle, FaShoppingCart } from 'react-icons/fa';
 import Link from 'next/link';
+import { FaListUl } from "react-icons/fa";
 
 
 const MobileNavbar = () => {
@@ -23,28 +24,34 @@ const MobileNavbar = () => {
     <SheetHeader>
       <SheetTitle></SheetTitle>
       <SheetDescription>
-      <ul className="flex flex-col items-center space-y-6 bg-white p-6 rounded-lg shadow-lg text-gray-700 text-lg">
-        <Link href='/'><li className="flex items-center space-x-2 hover:text-blue-500 cursor-pointer">
-          <FaHome className="w-6 h-6" />
-          <span>Home</span>
-        </li></Link>
-        <Link href='/ProductListing'><li className="flex items-center space-x-2 hover:text-blue-500 cursor-pointer">
-          <FaBox className="w-6 h-6" />
-          <span>Products</span>
-        </li></Link>
-        <Link href='/Aboutus'><li className="flex items-center space-x-2 hover:text-blue-500 cursor-pointer">
-          <FaInfoCircle className="w-6 h-6" />
-          <span>About Us</span>
-        </li></Link>
-        <Link href='/Cart'><li className="flex items-center space-x-2 hover:text-blue-500 cursor-pointer">
-          <FaShoppingCart className="w-6 h-6" />
-          <span>Cart</span>
-        </li></Link>
-        <Link href='/SeeAllProducts'><li className="flex items-center space-x-2 hover:text-blue-500 cursor-pointer">
-          <FaShoppingCart className="w-6 h-6" />
-          <span>See all products</span>
-        </li></Link>
-      </ul>
+      <div className="fixed top-0 h-screen w-64 bg-white shadow-lg z-40 flex flex-col p-6 space-y-6 text-gray-700 mt-10">
+      {/* Sidebar Links */}
+      <Link href="/" className="flex items-center space-x-2 hover:text-blue-500 transition-colors duration-300">
+        <FaHome className="w-6 h-6" />
+        <span>Home</span>
+      </Link>
+
+      <Link href="/Aboutus" className="flex items-center space-x-2 hover:text-blue-500 transition-colors duration-300">
+        <FaInfoCircle className="w-6 h-6" />
+        <span>About</span>
+      </Link>
+
+      <Link href="/ProductListing" className="flex items-center space-x-2 hover:text-blue-500 transition-colors duration-300">
+        <FaBox className="w-6 h-6" />
+        <span>Products</span>
+      </Link>
+
+      <Link href="/Cart" className="flex items-center space-x-2 hover:text-blue-500 transition-colors duration-300">
+        <FaShoppingCart className="w-6 h-6" />
+        <span>Cart</span>
+      </Link>
+
+      <Link href="/SeeAllProducts" className="flex items-center space-x-2 hover:text-blue-500 transition-colors duration-300">
+        <FaListUl className="w-6 h-6" />
+        <span>See All Products</span>
+      </Link>
+    </div>
+
       </SheetDescription>
     </SheetHeader>
   </SheetContent>

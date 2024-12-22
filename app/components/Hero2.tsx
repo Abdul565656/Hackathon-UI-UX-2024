@@ -7,17 +7,17 @@ import { RiPlantLine } from "react-icons/ri";
 const Hero2 = () => {
   return (
     <div className='mt-8'>
-<div className='p-14'>
-        <h5 className='md:text-3xl font-thin text-center text-2xl '>What makes our brand diferent</h5>
-
-        <div className='flex space-x-8 items-center mt-12 justify-evenly md:flex-row flex-col'>
-            <div className='font-light'>
+        <h5 className='md:text-3xl font-thin text-center text-2xl md:w-[1400px] w-60 '>What makes our brand diferent</h5>
+        <div className='md:p-14 p-3'>
+        <div className='flex space-x-8 md:w-[1200px] w-60 items-center md:mt-3 mt-6 justify-evenly md:flex-row flex-col'>
+          <br />
+          <div className='font-light'>
             <FaShippingFast className='w-6 h-6' />
                 <h5 className='leading-10 text-xl md:text-2xl'>Next day as standard</h5>
                 <p >Order before 3pm and get your order
                 the next day as standard</p>
             </div>
-              <br />
+            <br />
             <div className='font-light'>
             <FaRegCheckCircle className='w-6 h-6' />
                 <h5 className='leading-10 text-xl md:text-2xl '>Made by true artisans</h5>

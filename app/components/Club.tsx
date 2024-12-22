@@ -4,7 +4,7 @@ import React from 'react'
 const Club = () => {
   return (
     <div>
-        <div className="w-full h-auto bg-gray-100 py-8">
+        <div className="md:w-[1349px] h-auto bg-gray-100 py-8">
         <div className="m-auto w-11/12 bg-white p-8">
           <h1 className="text-custom-purple text-2xl md:text-3xl text-center">Join the club and get the benefits</h1>
           <p className="text-custom-purple text-center mt-6 text-sm md:text-base">
