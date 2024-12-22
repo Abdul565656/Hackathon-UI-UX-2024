@@ -7,6 +7,7 @@ import Image from 'next/image';
 import Hero2 from '../components/Hero2';
 import Club from '../components/Club';
 import Footer from '../components/Footer';
+import Link from 'next/link';
 const page = () => {
   return (
     <div>
@@ -33,6 +34,7 @@ const page = () => {
                 <li><FiSearch className="w-5 h-5 cursor-pointer" /></li>
                 <li><FiShoppingCart className="w-5 h-5 cursor-pointer" /></li>
                 <li><IoMdContact className="w-5 h-5 cursor-pointer" /></li>
+                <li><MobileNavbar /></li>
             </ul> 
             </div>
             <div className='md:hidden sm:block mr-8'>
@@ -72,7 +74,7 @@ const page = () => {
                     quality and outstanding customer service</h1>
                 </div>
                 <div>
-                    <button className='pt-4 pb-4 pr-8 pl-8 bg-[#F9F9F9]'>View our produts</button>
+                   <Link href='/SeeAllProducts'><button className='pt-4 pb-4 pr-8 pl-8 bg-[#F9F9F9]'>View our produts</button></Link> 
                 </div>
              </div>
 
@@ -83,8 +85,8 @@ const page = () => {
                              <h4 className='md:text-4xl text-2xl text-white font-thin'>It started with a small idea</h4>
                              <br />
                              <p className='md:text-xl text-sm text-white font-light'>A global brand with local beginnings, our story begain in a small studio in South London in early 2014</p>
-
-                             <button className='md:mt-40 bg-[#F9F9F926;] px-5 py-5 pl-8 pr-8 font-extralight text-white'>View Collection</button>
+                        <br />
+                             <button className='md:mt-40 bg-[#F9F9F926;] px-5 py-5 md:pl-8 md:pr-8 pl-16 pr-20 font-extralight text-white'>View Collection</button>
                              </div>
             <br />
                            <div className='flex md:w-[650px] md:h-[500px] w-[330px] h-[259px]'>
@@ -113,23 +115,26 @@ const page = () => {
                                       </div>
 
 
-                                      <div className='md:w-[720px] md:h-[603px] w-[420px] h-[264px] md:p-16 p-10 font-light'>
-                                        <h4 className='md:text-2xl text-xl'>Our service isn&apos;t just personal, it&apos;s actually
-                                        hyper personally exquisite</h4>
-                                        <br />
-                                        <p className='md:text-xl text-sm'>When we started Avion, the idea was simple. Make high quality furniture affordable and available for the mass market. 
+        <div className='md:w-[720px] md:h-[603px] w-[420px] h-[264px] md:p-16 p-10 font-light'>
+        <h4 className='md:text-2xl text-xl'>Our service isn&apos;t just personal, it&apos;s actually
+         hyper personally exquisite</h4>
+           <br />
+           <p className='md:text-xl text-sm'>When we started Avion, the idea was simple. Make high quality furniture affordable and available for the mass market. 
                                           <br />
                                           <br />
-                                          Handmade, and lovingly crafted furniture and homeware is what we live, breathe and design so our Chelsea boutique become the hotbed for the London interior design community.</p>
+            Handmade, and lovingly crafted furniture and homeware is what we live, breathe and design so our Chelsea boutique become the hotbed for the London interior design community.</p>
                                           <br />
-                                          <button className='mt-16 bg-[#F9F9F9] pt-4 pb-4 pr-8 pl-8'>Get In Touch</button>
-                                      </div>
-                                   </div>
+              <button className='mt-16 bg-[#F9F9F9] pt-4 pb-4 pr-8 pl-8'>Get In Touch</button>
+              </div>
+              </div>
+                                  <br />
                                    <br />
                                    <br />
-                                   <Hero2 />
-                                   <Club />
-                                   <Footer />
+                <div className='mt-10'>
+                <Hero2 />
+                   </div>
+                   <Club />
+                   <Footer />
              
     </div>
   )

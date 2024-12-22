@@ -6,7 +6,7 @@ const Touch = () => {
     <div>
 
            <div className='flex justify-between md:flex-row flex-col'>
-              <div className='md:w-[650px] md:h-[485px] md:p-16 p-10 w-[300px] font-light'>
+              <div className='md:w-[650px] md:h-[485px] md:p-16 p-10 w-[400px] font-light'>
                 <h4 className='md:text-2xl text-xl'>From a studio in London to a global brand with over 400 outlets</h4>
                 <br />
                 <p className='md:text-xl text-sm'>When we started Avion, the idea was simple. Make high quality furniture affordable and available for the mass market. 

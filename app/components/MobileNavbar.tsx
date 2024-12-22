@@ -11,6 +11,7 @@ import { IoMenu } from "react-icons/io5";
 import { FaHome, FaBox, FaInfoCircle, FaShoppingCart } from 'react-icons/fa';
 import Link from 'next/link';
 import { FaListUl } from "react-icons/fa";
+import { GiPodiumSecond } from "react-icons/gi";
 
 
 const MobileNavbar = () => {
@@ -26,6 +27,12 @@ const MobileNavbar = () => {
       <SheetDescription>
       <div className="fixed top-0 h-screen w-64 bg-white shadow-lg z-40 flex flex-col p-6 space-y-6 text-gray-700 mt-10">
       {/* Sidebar Links */}
+
+      <Link href="/Homepage2" className="flex items-center space-x-2 hover:text-blue-500 transition-colors duration-300">
+      <GiPodiumSecond className="w-6 h-6" />
+        <span>Second Homepage</span>
+      </Link>
+
       <Link href="/" className="flex items-center space-x-2 hover:text-blue-500 transition-colors duration-300">
         <FaHome className="w-6 h-6" />
         <span>Home</span>

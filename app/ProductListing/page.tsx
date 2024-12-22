@@ -40,9 +40,7 @@ const page = () => {
     <FiSearch className="w-5 h-5 cursor-pointer" />
     <FiShoppingCart className="w-5 h-5 cursor-pointer" />
     <IoMdContact className="w-5 h-5 cursor-pointer" />
-    <div className='md:hidden sm:block'>
     <MobileNavbar />
-    </div>
     </div>
 </nav>
 
@@ -93,7 +91,7 @@ const page = () => {
                 <br />
                 <div className='flex justify-between items-center'>
                     <h4 className='text-xl'>Amount</h4>
-                    <p className='md:mr-44  '>- 1 +</p>
+                    <p className='md:mr-44  tracking-tight bg-[#F9F9F9] p-3 '>- 1 +</p>
                     <button className='bg-[#2A254B] pt-4 pb-4 pr-8 pl-8 text-white'>Add to cart</button>
                 </div>
             </div>
