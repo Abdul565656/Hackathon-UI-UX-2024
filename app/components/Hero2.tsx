@@ -9,7 +9,7 @@ const Hero2 = () => {
     <div className='mt-8'>
         <h5 className='md:text-3xl font-thin text-center text-3xl md:w-[1400px] w-[350px] '>What makes our brand diferent</h5>
         <div className='md:p-14 p-3'>
-        <div className='flex space-x-8 md:w-[1200px] w-[400px] justify-center items-center mt-3 md:flex-row flex-col'>
+        <div className='flex space-x-8 md:w-[1200px] w-[300px] justify-center items-center mt-3 md:flex-row flex-col'>
           <br />
           <div className='font-light'>
             <FaShippingFast className='w-6 h-6' />
