@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1><strong>Hackathon Project: Pixel-Perfect E-Commerce Website</strong></h1>
 
-## Getting Started
+<h4>Overview</h4>
 
-First, run the development server:
+I created a pixel-perfect and fully responsive E-Commerce website in just 24 hours during a hackathon. This project demonstrates my expertise in Next.js and Tailwind CSS, combining modern web development practices with a strong focus on design and performance.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<h1>Features</h1>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<h3>1. Pixel-Perfect Design</h3>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   Every element is crafted to align perfectly with the design specifications.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   High attention to detail ensures a professional and polished user interface.
 
-## Learn More
+<h3>2. Responsive Layout</h3>
 
-To learn more about Next.js, take a look at the following resources:
+   The website adapts seamlessly to different screen sizes (mobile, tablet, desktop).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   Utilizes Tailwind CSS utilities to create a consistent and flexible layout.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<h3>3. Modern Features</h3>
 
-## Deploy on Vercel
+   Product listing and detailed product pages.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   Interactive UI components for user engagement.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<h1>Technologies Used</h1>
+<h3>1. Next.js</h3>
+   Framework for React applications with built-in support for server-side rendering.
+<h3>2. Tailwind CSS</h3>
+   Utility-first CSS framework for rapid UI development.
+
+<h4>Click Here To See My E-Commerce Project https://hackathon-ui-ux-2024-ten.vercel.app/ </h4>
